@@ -95,3 +95,4 @@ class DBStorage:
         """
         if self.__session:
             self.__session.close()
+            
